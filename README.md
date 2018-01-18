@@ -1,9 +1,9 @@
 # postcss-config
-A PostCSS config file with all the right stuff 🌶
+🌶 A PostCSS config file with all the right stuff
 
 ## Getting Started
 
-### Install Dependencies 📦
+### Install Dependencies
 
 #### PostCSS and PostCSS Plugins
 
