@@ -18,6 +18,13 @@ module.exports = {
         ],
       },
     },
+    "postcss-pxtorem": {
+      unitPrecision: 4,
+      propWhiteList: [],
+      replace: true,
+      selectorBlackList: [],
+      minPixelValue: 2,
+    },
     "postcss-initial": {},
     "postcss-focus-visible": {},
     cssnano: {
