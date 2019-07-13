@@ -8,15 +8,15 @@
 #### PostCSS and PostCSS Plugins
 
 ```
-yarn add --dev postcss postcss-easy-import postcss-for postcss-each postcss-mixins postcss-custom-selectors postcss-simple-vars postcss-color-function postcss-apply postcss-calc postcss-nested postcss-atroot postcss-assets postcss-inline-svg postcss-initial postcss-pseudo-class-enter postcss-pxtorem autoprefixer cssnano postcss-reporter
+yarn add --dev postcss postcss-easy-import postcss-for postcss-each postcss-mixins postcss-custom-selectors postcss-nested postcss-preset-env postcss-pxtorem postcss-initial postcss-focus-visible cssnano postcss-reporter
 ```
 
-#### Container Queries Prolyfill
+#### Focus Visible Polyfill
 
-If you want to use container queries, add `cq-prolyfill` as a regular dependency. If not, remove it from `postcss.config.js`.
+https://github.com/WICG/focus-visible
 
 ```
-yarn add cq-prolyfill
+yarn add focus-visible
 ```
 
 ### Add Config
